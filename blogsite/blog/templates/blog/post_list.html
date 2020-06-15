@@ -1,0 +1,21 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+{% block content %}
+
+
+
+<div><h1 class="user_auth">Welcome @ {{user.username}} </h1></div>
+
+<section class="bottom">
+    
+    {% if posts %}    
+    <h3 class="recent_post">Recent Posts..</h3> 
+    {% for post in posts %}
+    <h1><a href="{% url 'blog:detail' pk=post.pk %}">{{post.title}}</a></h1>
+    <p class="lift">Date Published: {{post.published_date}}</p>
+    {% endfor %}
+    {% else %}
+    <h1 class="no">No Post Created</h1>
+    {% endif %}
+</section> 
+{% endblock  %}

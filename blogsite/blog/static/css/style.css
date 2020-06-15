@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.3),  0px 0px 10px 10px rgba(0, 0, 0, 0.3);
+    padding: 2rem 0rem;
+    min-height: 10vh;
+    align-items: center;
+    position: relative;
+}
+
+nav h2 {
+    flex: 1 1 20rem;
+    font-size: 3rem;
+    margin-left: 3rem;
+    color: black;
+}
+
+nav ul {
+    display: flex;
+    flex: 1 1 10rem;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 2.5rem;
+    font-size: 2.5rem;
+}
+
+.introduction {
+    min-height: 50vh;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+    top: 8rem;
+    z-index: -2;
+    object-fit: cover;
+}
+
+.introduction h1 {
+    text-align: center;
+    margin-top: 39rem;
+    color: #fff;
+    font-size: 9rem;
+    -webkit-text-stroke: 2px #000;
+}
+
+.about {
+    
+    width: 95%;
+    margin: 10rem auto;    
+}
+
+.box {
+    height: 50rem;
+    width: 60rem;
+    background-color: green;
+    margin-left: 10rem;
+    background: url('../images/kevin.jpg');
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.container ul  {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.container ul li {
+    list-style: none;
+    width: 100%;
+}
+
+
+h3 {
+    margin-top: 7rem;
+    font-size: 3rem; 
+    line-height: 1.6;
+    margin-right: 10rem;
+    color: #000000;
+}
+
+.user_auth {
+    margin-top: 35rem;
+    text-align: center;
+    font-size: 19rem;
+}
+
+.bottom {
+    width: 95%;
+    margin: 25rem auto 0 auto;
+}
+
+.bottom a  {
+    text-decoration: none;
+    color: #000000;
+    font-size: 3rem;
+}
+
+.bottom a:hover {
+    color: rgb(150, 144, 144);
+}
+
+.recent_post {
+    color: #000000;
+    font-size: 8rem;
+    text-align: center;
+}
+
+.form-container {
+    text-align: center;
+    margin: 5rem auto;
+    
+}
+
+.form-text {   
+    font-size: 10rem;
+    color: #ffffff;
+}
+
+
+form {
+    padding: 2rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0rem auto 5rem auto;
+    position: relative;
+}
+
+.form-box {
+    background-color: #000;
+    width: 50%;
+    margin: 3rem auto;
+    height: 55rem;
+    position: relative;
+
+}
+
+.username {
+    background-color: #ffffff;
+    width: 100%;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border: none;
+    padding: 1.5rem;
+}
+
+.username:focus {
+    outline: 1px solid blue;
+}
+
+.submit-form {
+    border: none;
+    padding: 2rem 5rem;
+    font-size: 2rem;
+    transition: all .5s ease-in-out;
+    background: #ffffff;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.submit-form:hover {
+    background-color: rgb(22, 20, 20);
+    color: #ffffff;
+}
+
+.post_create {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 5rem;
+}
+
+.publish {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.text {
+    color: #fff;
+}
+
+.edit {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.btn {
+    text-align: right;
+    text-decoration: none;
+    font-size: 2rem;
+    background-color: #fff;
+    color: #000000;
+    padding: 1rem 1rem;
+}
+
+.comet {
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+.no {
+    color: #000000;
+    font-size: 4rem;
+}
+
+.lift {
+    color: #000000;
+    font-size: 2rem;
+}

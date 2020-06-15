@@ -1,0 +1,20 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+ 
+{% block extrahead %}
+<link rel="stylesheet" href="{% static 'css/signupform.css' %}">
+{% endblock extrahead %}
+    
+    
+{% block content %}
+    <div class="form-container">
+    <h2 class="form-text">SignUp</h2>
+    <div class="form-box">
+    <form action="" method="post">
+        {% csrf_token %}
+        {{form.as_p}}
+        <button type="submit" class="submit-form">Register</button>
+    </form>
+</div>
+</div>
+{% endblock %}
